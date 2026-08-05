@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #F4F7FC;
+    margin: 0;
+    padding: 40px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    color: #3E5BA3;
+}
+
+label{
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background: #3E5BA3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover{
+    background: #2F4A8A;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+th{
+    background: #3E5BA3;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #F8F9FC;
+}
+
+button{
+    background: #5B7CFA;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #4767D9;
+}
